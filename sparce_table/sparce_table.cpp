@@ -120,6 +120,7 @@ using mint = atcoder::modint998244353;
 //using mint = atcoder::modint1000000007;
 //using mint = atcoder::modint;
 
+// https://github.com/Sukyakura/available_lib/blob/main/sparce_table/sparce_table.cpp
 #ifndef ATCODER_SPARSE_TABLE_HPP
 #define ATCODER_SPARSE_TABLE_HPP 1
 
