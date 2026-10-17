@@ -119,6 +119,7 @@ using mint = atcoder::modint998244353;
 //using mint = atcoder::modint1000000007;
 //using mint = atcoder::modint;
 
+// https://github.com/Sukyakura/available_lib/blob/main/deletable_dsu/dynamic_connectivity.cpp
 #ifndef ATCODER_DYNAMIC_CONNECTIVITY_HPP
 #define ATCODER_DYNAMIC_CONNECTIVITY_HPP 1
 

@@ -1,4 +1,4 @@
-
+// https://github.com/Sukyakura/available_lib/blob/main/custom_dsu/custom_dsu.cpp
 #ifndef ATCODER_CUSTOM_DSU_HPP
 #define ATCODER_CUSTOM_DSU_HPP 1
 
