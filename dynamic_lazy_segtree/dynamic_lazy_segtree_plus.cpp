@@ -63,6 +63,7 @@ using mint = atcoder::modint998244353;
 #include <memory>
 #include <cassert>
 
+// https://github.com/Sukyakura/available_lib/blob/main/dynamic_lazy_segtree/dynamic_lazy_segtree_plus.cpp
 template <
     class S, S (*op)(S, S), S (*e)(),
     class F, S (*mapping)(F, S), F (*composition)(F, F), F (*id)(),
