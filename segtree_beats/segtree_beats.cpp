@@ -120,6 +120,7 @@ using mint = atcoder::modint998244353;
 //using mint = atcoder::modint1000000007;
 //using mint = atcoder::modint;
 
+// https://github.com/Sukyakura/available_lib/blob/main/segtree_beats/segtree_beats.cpp
 // https://rsm9.hatenablog.com/entry/2021/02/01/220408#f-87ead188
 #ifndef ATCODER_SEGTREE_BEATS_HPP
 #define ATCODER_SEGTREE_BEATS_HPP 1
