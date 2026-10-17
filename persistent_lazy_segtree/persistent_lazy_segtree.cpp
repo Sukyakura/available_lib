@@ -119,6 +119,7 @@ using mint = atcoder::modint998244353;
 //using mint = atcoder::modint1000000007;
 //using mint = atcoder::modint;
 
+// https://github.com/Sukyakura/available_lib/blob/main/persistent_lazy_segtree/persistent_lazy_segtree.cpp
 #ifndef ATCODER_PERSISTENT_LAZYSEGTREE_HPP
 #define ATCODER_PERSISTENT_LAZYSEGTREE_HPP 1
 
