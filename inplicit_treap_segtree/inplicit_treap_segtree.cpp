@@ -63,6 +63,7 @@ using priority_queue_asc = std::priority_queue<T,std::vector<T>,std::greater<T>>
 using mint = atcoder::modint998244353;
 //using mint = atcoder::modint1000000007;
 
+// https://github.com/Sukyakura/available_lib/blob/main/inplicit_treap_segtree/inplicit_treap_segtree.cpp
 #ifndef ATCODER_IMPLICIT_TREAP_SEGTREE_HPP
 #define ATCODER_IMPLICIT_TREAP_SEGTREE_HPP 1
 
