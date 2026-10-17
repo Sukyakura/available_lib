@@ -120,6 +120,7 @@ using mint = atcoder::modint998244353;
 //using mint = atcoder::modint1000000007;
 //using mint = atcoder::modint;
 
+// https://github.com/Sukyakura/available_lib/blob/main/wavelet_matrix/range_sum.cpp
 // https://github.com/MitI-7/WaveletMatrix
 #ifndef ATCODER_WAVELETMATRIX_HPP
 #define ATCODER_WAVELETMATRIX_HPP 1
