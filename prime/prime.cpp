@@ -53,6 +53,7 @@ using priority_queue_asc = std::priority_queue<T,std::vector<T>,std::greater<T>>
 //using mint = atcoder::modint998244353;
 using mint = atcoder::modint1000000007;
 
+// https://github.com/Sukyakura/available_lib/blob/main/prime/prime.cpp
 // 素数判定
 bool isPrime(unsigned long long n){
     if(n < 2) return false;

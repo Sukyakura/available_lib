@@ -55,6 +55,7 @@ using priority_queue_asc = std::priority_queue<T,std::vector<T>,std::greater<T>>
 using mint = atcoder::modint998244353;
 //using mint = atcoder::modint1000000007;
 
+// https://github.com/Sukyakura/available_lib/blob/main/tree/tree2.cpp
 // グラフを木構造に変換(rは根のindex)
 vector<unordered_map<int,ll>> toTree(vector<unordered_map<int,ll>> &g, int r){
     vb tb(g.size());
@@ -74,6 +75,7 @@ vector<unordered_map<int,ll>> toTree(vector<unordered_map<int,ll>> &g, int r){
     return t;
 }
 
+// https://github.com/Sukyakura/available_lib/blob/main/tree/tree2.cpp
 // 木の配列化 (pair<int,int>{インデックス,子孫の数})
 vector<pair<int,int>> vectorTree(vector<unordered_map<int,ll>> &t,int r){
     vector<pair<int,int>> vt(t.size());

@@ -47,6 +47,7 @@ typedef vector<vector<vector<bool>>> vvvb;
 #define imin(x,y) x=min(x,y)
 using mint = atcoder::modint998244353;
 
+// https://github.com/Sukyakura/available_lib/blob/main/tree/tree.cpp
 void EulerTour(vector<unordered_set<int>> &t,vi &eti,vi &etr,vi &ete,vi &etd,int p,int d,int &etx){
     int sx=etx;
     eti[sx]=p;
@@ -65,6 +66,7 @@ pair<int,int> e(){
     return {2000000000,0};
 }
 
+// https://github.com/Sukyakura/available_lib/blob/main/tree/tree.cpp
 // グラフを木構造に変換(rは根のindex)
 vector<unordered_set<int>> toTree(vector<unordered_set<int>> &g, int r){
     vb tb(g.size());
@@ -84,6 +86,7 @@ vector<unordered_set<int>> toTree(vector<unordered_set<int>> &g, int r){
     return t;
 }
 
+// https://github.com/Sukyakura/available_lib/blob/main/tree/tree.cpp
 // 木構造に2の累乗先の親情報を持たせる
 vector<pair<int,vi>> treeParents(vector<unordered_set<int>> &t, int r){
     vi pv;
@@ -110,6 +113,7 @@ vector<pair<int,vi>> treeParents(vector<unordered_set<int>> &t, int r){
     return tp;
 }
 
+// https://github.com/Sukyakura/available_lib/blob/main/tree/tree.cpp
 // 最小共通祖先を求める
 int lca(vector<pair<int,vi>>& tp,int x,int y){
     if(tp[x].first<tp[y].first)swap(x,y);
@@ -126,6 +130,7 @@ int lca(vector<pair<int,vi>>& tp,int x,int y){
     return tp[x].second[0];
 }
 
+// https://github.com/Sukyakura/available_lib/blob/main/tree/tree.cpp
 // 木の配列化 (pair<int,int>{インデックス,子孫の数})
 vector<pair<int,int>> vectorTree(vector<unordered_set<int>> &t,int r){
     vector<pair<int,int>> vt(t.size());

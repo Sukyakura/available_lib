@@ -63,6 +63,7 @@ using priority_queue_asc = std::priority_queue<T,std::vector<T>,std::greater<T>>
 using mint = atcoder::modint998244353;
 //using mint = atcoder::modint1000000007;
 
+// https://github.com/Sukyakura/available_lib/blob/main/sqrt_decomposition/sqrt_decomposition2.cpp
 #ifndef ATCODER_FENWICKTREE_RANGE_HPP
 #define ATCODER_FENWICKTREE_RANGE_HPP 1
 
@@ -149,6 +150,7 @@ template <class T> struct fenwick_tree_range {
 
 #endif
 
+// https://github.com/Sukyakura/available_lib/blob/main/sqrt_decomposition/sqrt_decomposition2.cpp
 // 平方分割のインデックス補助
 struct SqrtIndexer{
     // 【利用方法】

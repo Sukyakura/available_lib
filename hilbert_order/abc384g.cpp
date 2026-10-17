@@ -64,6 +64,7 @@ using mint = atcoder::modint998244353;
 //using mint = atcoder::modint1000000007;
 //using mint = atcoder::modint;
 
+// https://github.com/Sukyakura/available_lib/blob/main/hilbert_order/abc384g.cpp
 ll hilbertOrder(int x, int y, int pow = 21, ll rot = 0) {
     if (pow == 0) return 0;
     int hpow = 1 << (pow - 1);

@@ -69,6 +69,7 @@ using mint = atcoder::modint998244353;
 #include <string>
 #include <random>
 
+// https://github.com/Sukyakura/available_lib/blob/main/rolling_hash/rolling_hash.cpp
 // 2^61-1 を法とする modint クラス
 struct mint61 {
     using ull = unsigned long long;
@@ -133,6 +134,7 @@ struct mint61 {
     }
 };
 
+// https://github.com/Sukyakura/available_lib/blob/main/rolling_hash/rolling_hash.cpp
 // 任意のシーケンス (string, vector 等) を受け取れるローリングハッシュ
 template <typename T>
 struct RollingHash {
@@ -158,6 +160,7 @@ struct RollingHash {
     }
 };
 
+// https://github.com/Sukyakura/available_lib/blob/main/rolling_hash/rolling_hash.cpp
 mint61 generate_base() {
     std::random_device rd;
     std::mt19937_64 mt(rd());

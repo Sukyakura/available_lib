@@ -55,6 +55,7 @@ using priority_queue_asc = std::priority_queue<T,std::vector<T>,std::greater<T>>
 using mint = atcoder::modint998244353;
 //using mint = atcoder::modint1000000007;
 
+// https://github.com/Sukyakura/available_lib/blob/main/lis/lis.cpp
 // 最長増加部分列(狭義単調増加)の長さを出力
 template <typename T>
 int lis_strict_len(vector<T> &v){
@@ -67,6 +68,7 @@ int lis_strict_len(vector<T> &v){
     return w.size();
 }
 
+// https://github.com/Sukyakura/available_lib/blob/main/lis/lis.cpp
 // 最長増加部分列(広義単調増加)の長さを出力
 template <typename T>
 int lis_nonstrict_len(vector<T> &v){
@@ -79,6 +81,7 @@ int lis_nonstrict_len(vector<T> &v){
     return w.size();
 }
 
+// https://github.com/Sukyakura/available_lib/blob/main/lis/lis.cpp
 // 最長増加部分列(狭義単調増加)の1つを出力
 template <typename T>
 vector<T> lis_strict(vector<T> &v){
@@ -107,6 +110,7 @@ vector<T> lis_strict(vector<T> &v){
     return z;
 }
 
+// https://github.com/Sukyakura/available_lib/blob/main/lis/lis.cpp
 // 最長増加部分列(広義単調増加)の1つを出力
 template <typename T>
 vector<T> lis_nonstrict(vector<T> &v){
@@ -135,6 +139,7 @@ vector<T> lis_nonstrict(vector<T> &v){
     return z;
 }
 
+// https://github.com/Sukyakura/available_lib/blob/main/lis/lis.cpp
 // 最長増加部分列(狭義単調増加)を全て出力
 template <typename T>
 vector<vector<T>> lis_strict_list(vector<T>&v) {
@@ -163,6 +168,7 @@ vector<vector<T>> lis_strict_list(vector<T>&v) {
     return r;
 }
 
+// https://github.com/Sukyakura/available_lib/blob/main/lis/lis.cpp
 // 最長増加部分列(広義単調増加)を全て出力
 template <typename T>
 vector<vector<T>> lis_nonstrict_list(vector<T>&v) {
