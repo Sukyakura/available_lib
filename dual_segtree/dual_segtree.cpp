@@ -46,6 +46,7 @@ typedef vector<vector<vector<bool>>> vvvb;
 #define imin(x,y) x=min(x,y)
 using mint = atcoder::modint998244353;
 
+// https://github.com/Sukyakura/available_lib/blob/main/dual_segtree/dual_segtree.cpp
 template <class S, S (*op)(S, S), S (*e)()> class dual_segtree {
     public:
     dual_segtree() : dual_segtree(0) {}

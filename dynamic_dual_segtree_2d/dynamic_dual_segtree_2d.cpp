@@ -1,5 +1,6 @@
 # include <bits/stdc++.h>
 
+// https://github.com/Sukyakura/available_lib/blob/main/dynamic_dual_segtree_2d/dynamic_dual_segtree_2d.cpp
 template <class S, S (*op)(S, S), S (*e)()> class dynamic_dual_segtree_2d {
     public:
     std::vector<std::vector<std::unordered_map<unsigned long long, std::unordered_map<unsigned long long, S>>>> memory;

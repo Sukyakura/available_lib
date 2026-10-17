@@ -3,6 +3,7 @@
 #include <cstdint>
 #include <algorithm>
 
+// https://github.com/Sukyakura/available_lib/blob/main/dynamic_bitset/dynamic_bitset.cpp
 class FastDynamicBitset {
 private:
     std::vector<uint64_t> data;
