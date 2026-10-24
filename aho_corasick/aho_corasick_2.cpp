@@ -120,6 +120,7 @@ using priority_queue_asc = std::priority_queue<T,std::vector<T>,std::greater<T>>
 using mint = atcoder::modint1000000007;
 //using mint = atcoder::modint;
 
+// https://github.com/Sukyakura/available_lib/blob/main/aho_corasick/aho_corasick_2.cpp
 #ifndef ATCODER_AHO_CORASICK_HPP
 #define ATCODER_AHO_CORASICK_HPP 1
 
