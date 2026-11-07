@@ -120,7 +120,7 @@ using mint = atcoder::modint998244353;
 //using mint = atcoder::modint1000000007;
 //using mint = atcoder::modint;
 
-
+// https://github.com/Sukyakura/available_lib/blob/main/doubling/doubling.cpp
 #ifndef ATCODER_DOUBLING_HPP
 #define ATCODER_DOUBLING_HPP 1
 
