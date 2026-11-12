@@ -120,6 +120,7 @@ using mint = atcoder::modint998244353;
 //using mint = atcoder::modint1000000007;
 //using mint = atcoder::modint;
 
+// https://github.com/Sukyakura/available_lib/blob/main/fenwicktree_2d/fenwicktree_2d.cpp
 #ifndef ATCODER_FENWICKTREE_2D_HPP
 #define ATCODER_FENWICKTREE_2D_HPP 1
 
