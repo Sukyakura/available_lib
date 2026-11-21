@@ -120,6 +120,7 @@ using mint = atcoder::modint998244353;
 //using mint = atcoder::modint1000000007;
 //using mint = atcoder::modint;
 
+// https://github.com/Sukyakura/available_lib/blob/main/avx512/avx512.cpp
 #ifndef AVX512_VECTOR_HPP
 #define AVX512_VECTOR_HPP
 
